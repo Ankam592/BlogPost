@@ -4,6 +4,7 @@ import { Controller } from "react-hook-form";
 
 
 export const RTE = ({ name, control, label, defaultValue = "" }) => {
+    const apikey = import.meta.env.API_KEY
     return (
         <div className="w-full">
             {label && <label className="inline-block mb-1 pl-1">{label}</label>}
@@ -12,7 +13,7 @@ export const RTE = ({ name, control, label, defaultValue = "" }) => {
                 control={control}
                 render={({ field: { onChange } }) => (
                     <Editor
-                    apiKey='clyoxslz8l3n9qlucausjeu3xilk3hy7669aody7vkdvn2or'
+                    apiKey={import.meta.env.VITE_API_KEY}
                         initialValue="Hello guys, Lets Do React Project???"
                         init={{
                             branding: false,
