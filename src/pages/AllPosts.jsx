@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { AllPosts } from "../appwrite/config";
-import { Container,PostCard } from "../components/index";
+import { Container,PostCard } from "../components/Index";
 import { useState } from "react";
 
 

@@ -4,9 +4,9 @@ import { login_user } from '../store/authSlice';
 import { Link, useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { useForm } from 'react-hook-form';
-import { Input} from './index';
+import { Input} from './Index';
 import { Button } from './Button';
-import { Logo } from './index';
+import { Logo } from './Index';
 
 
 export const SignUp = ()=> {

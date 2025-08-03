@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import { Button } from './Button';
-import { Input, Logo } from "./index";
+import { Input, Logo } from "./Index";
 import { loginuser, getCurrentUser } from "../appwrite/auth";
 import { useForm } from "react-hook-form";
 import { useSelector } from "react-redux";

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { getPost, deletePost, deleteFile, filePreview } from "../appwrite/config";
 import { useSelector } from "react-redux";
-import { Container } from "../components/index";
+import { Container } from "../components/Index";
 import { Button } from "../components/Button";
 import { Link, useNavigate, useParams } from "react-router-dom";
 function Post() {

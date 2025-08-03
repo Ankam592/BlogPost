@@ -21,7 +21,6 @@ export const RTE = ({ name, control, label, defaultValue = "" }) => {
                             menubar: false,
                             plugins: [
                                 'advlist',        // Advanced lists
-                                'autolink',       // Auto create links
                                 'lists',          // Ordered & unordered lists
                                 'link',           // Add/edit links
                                 'image',          // Insert and edit images
