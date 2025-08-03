@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { fileUpload, deleteFile, updatePost, postPost, filePreview } from "../../appwrite/config";
 import { Button } from "../Button";
 import Select from "../Select";
-import { Input, RTE } from "../../components/index";
+import { Input, RTE } from "../../components/Index";
 
 
 export const Postform = ({ post }) => {
