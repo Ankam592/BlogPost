@@ -2,7 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import { Provider } from 'react-redux'
 import { RouterProvider } from 'react-router-dom'
-import {  Login, SignUp, Protected } from "./components/index.jsx"
+import {  Login, SignUp, Protected } from "./components/Index.jsx"
 import  AllPosts  from './pages/AllPosts'
 import  AddPost  from './pages/AddPost'
 import  EditPost  from './pages/EditPost'
